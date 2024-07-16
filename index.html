@@ -96,26 +96,26 @@
     </section>
 
     <!-- Contact Section -->
-    <section>
-        <h2>Contact Us</h2>
+    <div class="container mt-5">
+        <h2 class="text-start mb-2 fw-semibold">Contact Us</h2>
         <form>
-            <div>
-                <div>
-                    <label for="inputName">Name</label>
-                    <input type="text" id="inputName" placeholder="Name">
+            <div class="row">
+                <div class="col-md-4 flex-grow-1 pb-2">
+                    <label class="pb-2 fw-medium" for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
                 </div>
-                <div>
-                    <label for="inputEmail">Email</label>
-                    <input type="email" id="inputEmail" placeholder="Email">
+                <div class="col-md-4 flex-grow-1">
+                    <label class="pb-2 fw-medium" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                 </div>
             </div>
-            <div>
-                <label for="inputMessage">Message</label>
-                <textarea id="inputMessage" rows="4"></textarea>
+            <div class="form-group pt-2 pb-3">
+                <label class="pb-2 fw-medium" for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message"></textarea>
             </div>
-            <button type="submit">Send</button>
+            <button type="submit" class="btn btn-dark">Send</button>
         </form>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer>
